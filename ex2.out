@@ -1,0 +1,9 @@
+----------Exercise 2----------
+Test constructor of empty Bookshelf, using toString() method
+Expected: []
+Actual: []
+
+Test constructor of non-empty Bookshelf, using toString() method
+Expected: [0, 9, 6]
+Actual: [0, 9, 6]
+

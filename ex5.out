@@ -1,0 +1,80 @@
+----------Exercise 2----------
+Test constructor of empty Bookshelf, using toString() method
+Expected: []
+Actual: []
+
+Test constructor of non-empty Bookshelf, using toString() method
+Expected: [0, 9, 6]
+Actual: [0, 9, 6]
+
+----------Exercise 3----------
+TEST #1: addLast() method
+Bookshelf before addLast(): 
+[8, 3, 10]
+Bookshelf after addLast(): 
+Expected: [8, 3, 10, 9]
+Actual: [8, 3, 10, 9]
+
+TEST #2: removeLast() method
+Bookshelf before removeLast(): 
+[20, 7, 32, 0, 1]
+Height removed: 
+Expected: 1
+Actual: 1
+Bookshelf after removeLast(): 
+Expected: [20, 7, 32, 0]
+Actual: [20, 7, 32, 0]
+
+TEST #3: getHeight() method
+Bookshelf before getHeight(): 
+[4, 100, 34, 0]
+After getHeight(2), height at position 2 is: 
+Expected: 34
+Actual: 34
+Actual: [4, 100, 34, 0]
+
+TEST #4: test size()
+Bookshelf before size(): 
+[0, 99, 54, 2]
+After size(), bookshelf size is: 
+Expected: 4
+Actual: 4
+
+----------Exercise 4----------
+TEST #5: test addFront()
+Bookshelf before addFront(): 
+[3, 73, 1, 3]
+Bookshelf after addFront(): 
+Expected: [2, 3, 73, 1, 3]
+Actual: [2, 3, 73, 1, 3]
+
+TEST #6: test removeFront()
+Bookshelf before removeFront(): 
+[99, 33, 0, 4]
+After removeFront(), height removed is: 
+Expected: 99
+Actual: 99
+Bookshelf after removeFront(): 
+Expected: [33, 0, 4]
+Actual: [33, 0, 4]
+
+TEST #7: test isSorted()
+Bookshelf before isSorted(): 
+[1, 2, 3, 4]
+Bookshelf result of isSorted(): 
+Expected: true
+Actual: true
+
+Bookshelf after adding height 0: 
+[1, 2, 3, 4, 0]
+Bookshelf result of isSorted() again: 
+Expected: false
+Actual: false
+
+----------Exercise 5----------
+In Bookshelf, see: 
+1. representation invariant comment
+2. isValidBookshelf() method
+3. isValidBookshelf() assert statements in both constructors
+4. TestAssert
+5. assert statements in methods
